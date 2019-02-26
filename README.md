@@ -1,4 +1,4 @@
-The script 'PythonSimpleScrape.py' scrapes hotel data from the popular hotel reservation site: https://www.booking.com/
+The script 'PythonScrape.py' scrapes hotel data from the popular hotel reservation site: https://www.booking.com/ up to ten pages of booking lists.
 
 The demonstarted example uses Seoul (destination) and 27-28 March 2019 (stay period) as the inputs.
 
