@@ -2,7 +2,7 @@ The script `HotelScrape.py` scrapes hotel data from the popular hotel reservatio
 
 The demonstrated example uses Hong Kong (destination) and 21 October-09 November 2019 (stay period) as inputs.
 
-When running the script, it automatically fills out the form for the user as follows,
+When running the script, it fills out the form automatically for the user as follows,
 
 [(click to view image)](https://github.com/QuantStats/WebScraping/blob/master/Images/FormFill.png)
 
