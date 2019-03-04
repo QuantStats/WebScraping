@@ -4,11 +4,11 @@ The demonstrated example uses Hong Kong (destination) and 21 October-09 November
 
 When running the script, it automatically fill out the form for the user as follows,
 
-[Click here to view image](https://github.com/QuantStats/WebScraping/blob/master/Images/FormFill.png)
+[(click to view image)](https://github.com/QuantStats/WebScraping/blob/master/Images/FormFill.png)
 
 and it navigates to each page automatically by clicking on the next-page button when scraping hotel data as follows,
 
-[Click here to view image](https://github.com/QuantStats/WebScraping/blob/master/Images/PageClick.png)
+[(click to view image)](https://github.com/QuantStats/WebScraping/blob/master/Images/PageClick.png)
 
 The scraped hotel data is saved in a `csv` file (see `hotel_prices.csv` for a sample) as a list of hotels with their key info: rating, star, and (total) price in the user local currency for the stay period. The user local currency is dependent on the user IP address when running the scrape.
 
