@@ -2,6 +2,14 @@ The script `HotelScrape.py` scrapes hotel data from the popular hotel reservatio
 
 The demonstrated example uses Hong Kong (destination) and 21 October-09 November 2019 (stay period) as inputs.
 
+When running the script, it automatically fill out the form for the user as follows,
+
+![alt text](https://github.com/QuantStats/WebScraping/blob/master/Images/FormFill.png)
+
+and it navigates to each page automatically by clicking on the next-page button when scraping hotel data as follows,
+
+![alt text](https://github.com/QuantStats/WebScraping/blob/master/Images/PageClick.png)
+
 The scraped hotel data is saved in a `csv` file (see `hotel_prices.csv` for a sample) as a list of hotels with their key info: rating, star, and (total) price in the user local currency for the stay period. The user local currency is dependent on the user IP address when running the scrape.
 
 The default scrape runs from the first to the last page of all available listings. Alternatively, one can also comment out parts of the code to scrape up to a maximum number of pages only. Instructions to do so are given in the script.
@@ -10,4 +18,4 @@ Using _Task Scheduler_ in Windows or _Cron_ in Unix/Linux, one can schedule the 
 
 The print output after a run of the script is shown below:
 
-![alt text](https://github.com/QuantStats/WebScraping/blob/master/HotelList.png)
+![alt text](https://github.com/QuantStats/WebScraping/blob/master/Images/HotelList.png)
